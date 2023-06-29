@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #374151;
+}
+
+.contact {
+    height: 100vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    width: 80%;
+    background-color: #0E7490;
+    color: white;
+    border-radius: 15px;
+    padding: 30px;
+    /* border: 2px solid red; */
+}
+
+.contact-page {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    /* padding: 30px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-text h1 {
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.contact-text p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.contact-text-1 {
+    padding-bottom: 25px;
+}
+
+.contact-text-1 span {
+    padding-left: 8px;
+}
+
+.contact-text-1 i {
+    color: #5EEAD4;
+    font-size: 20px;
+}
+
+.contact-text-2 {
+    padding-bottom: 25px;
+}
+
+.contact-text-2 i {
+    color: #5EEAD4;
+    font-size: 20px;
+}
+
+.contact-text-2 span {
+    padding-left: 8px;
+}
+
+.contact-text-3 {
+    padding-bottom: 10px;
+}
+
+.contact-text-3 i {
+    color: #5EEAD4;
+    font-size: 20px;
+}
+
+.contact-text-3 span {
+    padding-left: 8px;
+
+}
+
+.contact-icon i {
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.form-container {
+    width: 50%;
+    height: 85vh;
+    padding: 30px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 6px 0px 40px 0px rgba(0,0,0,0.74);
+
+}
+
+.form-name {
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-name input {
+    margin-top: 10px;
+    padding: 13px 13px;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #9CA3AF;
+}
+
+.form-name input::placeholder {
+    color: #9CA3AF;
+    font-weight: 500;
+}
+
+.form-name input:focus {
+    border: 2px solid #2DD4BF;
+}
+
+.form-email {
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-email input {
+    margin-top: 10px;
+    padding: 13px 13px;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #9CA3AF;
+}
+
+.form-email input::placeholder {
+    color: #9CA3AF;
+    font-weight: 500;
+}
+
+.form-email input:focus {
+    border: 2px solid #2DD4BF;
+}
+
+.form-massage {
+    padding-bottom: 10px;
+}
+
+.form-massage textarea {
+    margin-top: 10px;
+    padding: 10px 17px;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #9CA3AF;
+}
+
+.form-massage textarea::placeholder {
+    color: #9CA3AF;
+    font-weight: 500;
+    font-size: 17px;
+    /* color: #000; */
+}
+
+.form-massage textarea:focus {
+    border: 2px solid #2DD4BF;
+
+}
+
+.form-box button {
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    background: #0E7490;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+@media (max-width:400px) {
+    
+    .contact-container{
+        width: 100%;
+        height:1080px;
+    }
+    .contact{
+        width:90%;
+       height: 1020px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-page{
+        width: 100%;
+        height:900px;
+    }
+    .contact-text h1{
+        text-align: center;
+        padding-right: 20px;
+    }
+    .contact-text-1 span{
+        font-size: 16px;
+    }
+    .contact-text-1 i{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .contact-text-2 span{
+        font-size: 16px;
+    }
+    .contact-text-2 i{
+        font-size: 17px;
+    }
+    .contact-text-3 span{
+        font-size: 15px;
+    }
+    .contact-text-3 i{
+        font-size: 17px;
+    }
+    .contact-icon{
+        width: 100%;
+        text-align: center;
+    }
+    .form-container{
+        width: 100%;
+        padding: 10px;
+        height: 900px;
+        margin-top: 50px;
+    }
+    .form-box{
+        width: 100%;
+        height:auto;
+    } 
+    .form-massage{
+        padding: 0px;
+        padding-right: 20px;
+    }
+    .form-massage textarea{
+      padding: 10px;
+    }
+    .form-box button{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
